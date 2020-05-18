@@ -1,0 +1,33 @@
+body{
+  background-image:linear-gradient(to top right);
+}
+form{
+   margin-top:2%;
+   text-align:center;
+}
+td{
+   padding:12px;
+}
+input{
+   background-color:lightpink;
+}
+textarea{
+   background-color:lightpink;
+}
+button{
+   background-color:purple;
+   color:white;
+}
+button.button1{
+   background-color:purple;
+   color:white;
+   margin-right:5%;
+   margin-left:5%;
+}
+a{
+   color:white;
+}
+h2{
+   align="center";
+   color:tomato;
+}
