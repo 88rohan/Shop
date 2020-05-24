@@ -1,7 +1,11 @@
 <html>
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="assignment1.css">
+  <title>Fish Curry recipe</title>
   <style>
-     .head{
+	  	.head{
 	    font-size:50px;
 	    text-decoration:underline;
 		font-weight:bold;
@@ -9,15 +13,9 @@
 		color:#31708e;
 		background-image:linear-gradient(to top right,#8fc1e3,#cafafe,#c5cbe3,#10e7dc);
 	 }
-	 #back{
-	    background-image:linear-gradient(to top right,#fbeec1,#cafafe,#c5cbe3,#eee2dc);
-	 }
 	 #list1{
 	    font-size:40px;
 		text-decoration:underline;
-	 }
-	 .Fish{
-	    font-size:30px;
 	 }
 	 .order{
 		list-style-type: upper-roman;
@@ -32,11 +30,6 @@
 	 #list{
 	    font-size:35px;
 		text-decoration:underline;
-	 }
-	 .order1{
-		list-style-type: lower-roman;
-	    font-size:30px;
-		padding-bottom:10px;
 	 }
 	 #main > .Fish > li {
 	    list-style: "  ⬊   ";
@@ -59,16 +52,13 @@
 	 p{
 	    font-size:19px;
 	 }
-	 #head3{
-	    font-size:30px;
-		text-decoration:underline;
-	 }
-	.Red > em{
+	.Red{
 	    font-style:normal;
 		color:red;
 	 }
 	 span{
 	    font-style:italic;
+		font-weight:bold;
 	 }
 	 span:last-of-type{
 		text-decoration:underline;
@@ -92,19 +82,60 @@
 	  	height:60%;
 		width:36%;  
 	 }
+	 @media screen and (max-width: 400px) {
+        body {
+            background-image:linear-gradient(to top right,#edf5e1,#64485c,#e7717d,#ac3b61);
+		}
+		#head3{
+	    font-size:20px;
+		text-decoration:none;
+	    }
+		p{
+			font-size:10px;
+		 }
+	 }
+	 @media screen and (max-width: 750px) and (min-width: 401px) {
+	    body {
+		    background-image:linear-gradient(to top right,#41b3a3,#8d8741,#8ee4af,#3feee6);
+	    }
+		.Fish{
+			font-size:20px;
+	    }
+		.order1{
+			list-style-type: lower-alpha;
+			font-size:20px;
+			padding-bottom:5px;
+		 }
+	 }
+	 @media screen and (min-width: 750px) {
+	    body {
+			background-image:linear-gradient(to top right,#fbeec1,#cafafe,#c5cbe3,#eee2dc);
+	    }
+		.Fish{
+			font-size:30px;
+	    }
+			 .order1{
+			list-style-type: lower-roman;
+			font-size:30px;
+			padding-bottom:10px;
+		}
+		#head3{
+			font-size:30px;
+			text-decoration:underline;
+		 }
+	 }
   </style>
-  <title>Fish Curry recipe</title>
 </head>
-<body id="back">
+<body>
  <h1 class="head" align="center">North Indian recipe for fish curry</h1>
- <p>&nbsp&nbsp&nbsp&nbspThere are so many iterations of <span class="Red"><em>fish curry</em></span>, 
+ <p>&nbsp&nbsp&nbsp&nbspThere are so many iterations of <span class="Red">fish curry</span>, 
  you might get lost figuring out which is the best to try first.<br> 
- This traditional <span><em>fish curry</em></span> recipe is made with <span><em>whole paanch
- phoran seeds</em></span>. and gets a bit of a kick from <br><span><em>red chilies</em></span>.
+ This traditional <span>fish curry</span> recipe is made with <span>whole paanch
+ phoran seeds</span>. and gets a bit of a kick from <br><span>red chilies</span>.
  The ingredients used here show a mix of both <span><em>eastern</em></span> 
- and <span><em>northern</em></span> Indian culinary influences, <br>so it's a good
+ and <span>northern</span> Indian culinary influences, <br>so it's a good
  place to start before graduating to regional specialties like
- <span><em>Goan or Mangalorean</em></span> fish curries. <br>Serve it on a bed of hot plain boiled rice.</p>
+ <span>Goan or Mangalorean</span> fish curries. <br>Serve it on a bed of hot plain boiled rice.</p>
  <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2016/01/fish-curry-recipe.jpg" alt="Fish curry" height="80%" width="50%">
  <p>&nbsp&nbsp&nbsp&nbspFish is all time my favourite non-vegeterian dish. I like it's taste and flavors and little bit spicy.<br>
   Whenever I go to home🏘, I got to make this👨‍🍳 and it turned out very good and tasty.😇</p>
